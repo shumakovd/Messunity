@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		289418064434BC49601A9981 /* Pods_MessunityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08236C9DDAC96A53137D7227 /* Pods_MessunityTests.framework */; };
+		4E0B72E46570D5176570ED3A /* Pods_Messunity_MessunityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9482EF4BC1D3870CF344C0 /* Pods_Messunity_MessunityUITests.framework */; };
 		8495046629213111008A9F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495046529213111008A9F22 /* AppDelegate.swift */; };
-		8495046829213111008A9F22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495046729213111008A9F22 /* SceneDelegate.swift */; };
-		8495046A29213111008A9F22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495046929213111008A9F22 /* ViewController.swift */; };
 		8495046D29213111008A9F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495046B29213111008A9F22 /* Main.storyboard */; };
 		8495046F29213116008A9F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8495046E29213116008A9F22 /* Assets.xcassets */; };
 		8495047229213116008A9F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495047029213116008A9F22 /* LaunchScreen.storyboard */; };
 		8495047D29213117008A9F22 /* MessunityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495047C29213117008A9F22 /* MessunityTests.swift */; };
 		8495048729213117008A9F22 /* MessunityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495048629213117008A9F22 /* MessunityUITests.swift */; };
 		8495048929213117008A9F22 /* MessunityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495048829213117008A9F22 /* MessunityUITestsLaunchTests.swift */; };
+		84C13B262921361000749E96 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C13B252921361000749E96 /* Auth.storyboard */; };
+		84C13B2C2921383600749E96 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B2B2921383600749E96 /* LoginVC.swift */; };
+		84C13B2E2921384300749E96 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B2D2921384300749E96 /* AuthVC.swift */; };
+		84C13B312921386900749E96 /* BasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B302921386800749E96 /* BasicVC.swift */; };
+		84C13B34292138A500749E96 /* BasicTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B33292138A500749E96 /* BasicTVCell.swift */; };
+		84C13B36292138DC00749E96 /* BasicCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B35292138DC00749E96 /* BasicCVCell.swift */; };
+		84C13B3B2921393D00749E96 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B3A2921393D00749E96 /* AppSettings.swift */; };
+		84C13B3E292139BC00749E96 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B3D292139BC00749E96 /* APIManager.swift */; };
+		84C13B4129213A2D00749E96 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B4029213A2D00749E96 /* BaseRouter.swift */; };
+		84C13B4329213A7200749E96 /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B4229213A7200749E96 /* NetworkStatus.swift */; };
+		84C13B4629213DD500749E96 /* ChatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B4529213DD500749E96 /* ChatListVC.swift */; };
+		84C13B4A29213E4800749E96 /* LottieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B4929213E4800749E96 /* LottieManager.swift */; };
+		84C13B4D29213E9D00749E96 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B4C29213E9D00749E96 /* Utils.swift */; };
+		84C13B4F29213F6600749E96 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B4E29213F6600749E96 /* FirebaseManager.swift */; };
+		84C13B5229213FE700749E96 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B5129213FE700749E96 /* Enums.swift */; };
+		84C13B572921407B00749E96 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B562921407B00749E96 /* MainTabBarVC.swift */; };
+		84C13B592921409E00749E96 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C13B582921409E00749E96 /* Chat.storyboard */; };
+		84C13B5B292140C300749E96 /* NotificationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B5A292140C300749E96 /* NotificationExt.swift */; };
+		84C13B5D292140DB00749E96 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B5C292140DB00749E96 /* UIButtonExt.swift */; };
+		84C13B5F2921410300749E96 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B5E2921410300749E96 /* UIViewExt.swift */; };
+		84C13B612921413000749E96 /* UITextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B602921413000749E96 /* UITextFieldExt.swift */; };
+		84C13B632921414B00749E96 /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B622921414B00749E96 /* UIImageViewExt.swift */; };
+		84C13B652921419F00749E96 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B642921419F00749E96 /* DateExt.swift */; };
+		84C13B6A2921444000749E96 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B692921444000749E96 /* ProfileVC.swift */; };
+		84C13B6D2921445200749E96 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B6C2921445200749E96 /* SettingsVC.swift */; };
+		B99DFB986E3C7D269BEDF683 /* Pods_Messunity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553510B15886E8011BC9B755 /* Pods_Messunity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +62,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08236C9DDAC96A53137D7227 /* Pods_MessunityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessunityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE31BECCA76E4D5C32480A7 /* Pods-Messunity-MessunityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messunity-MessunityUITests.debug.xcconfig"; path = "Target Support Files/Pods-Messunity-MessunityUITests/Pods-Messunity-MessunityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F5AF0C23D9B752189F81EBE /* Pods-MessunityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessunityTests.release.xcconfig"; path = "Target Support Files/Pods-MessunityTests/Pods-MessunityTests.release.xcconfig"; sourceTree = "<group>"; };
+		553510B15886E8011BC9B755 /* Pods_Messunity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messunity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C454B504E1FC014B71B1D9 /* Pods-Messunity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messunity.debug.xcconfig"; path = "Target Support Files/Pods-Messunity/Pods-Messunity.debug.xcconfig"; sourceTree = "<group>"; };
+		774A02F4047EAEB9FF897F03 /* Pods-MessunityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessunityTests.debug.xcconfig"; path = "Target Support Files/Pods-MessunityTests/Pods-MessunityTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8495046229213110008A9F22 /* Messunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8495046529213111008A9F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8495046729213111008A9F22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8495046929213111008A9F22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8495046C29213111008A9F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8495046E29213116008A9F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8495047129213116008A9F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +79,34 @@
 		8495048229213117008A9F22 /* MessunityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessunityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8495048629213117008A9F22 /* MessunityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessunityUITests.swift; sourceTree = "<group>"; };
 		8495048829213117008A9F22 /* MessunityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessunityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84C13B252921361000749E96 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		84C13B2B2921383600749E96 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		84C13B2D2921384300749E96 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		84C13B302921386800749E96 /* BasicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicVC.swift; sourceTree = "<group>"; };
+		84C13B33292138A500749E96 /* BasicTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTVCell.swift; sourceTree = "<group>"; };
+		84C13B35292138DC00749E96 /* BasicCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCVCell.swift; sourceTree = "<group>"; };
+		84C13B3A2921393D00749E96 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		84C13B3D292139BC00749E96 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		84C13B4029213A2D00749E96 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		84C13B4229213A7200749E96 /* NetworkStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
+		84C13B4529213DD500749E96 /* ChatListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListVC.swift; sourceTree = "<group>"; };
+		84C13B4929213E4800749E96 /* LottieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieManager.swift; sourceTree = "<group>"; };
+		84C13B4C29213E9D00749E96 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		84C13B4E29213F6600749E96 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		84C13B5129213FE700749E96 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		84C13B562921407B00749E96 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		84C13B582921409E00749E96 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		84C13B5A292140C300749E96 /* NotificationExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExt.swift; sourceTree = "<group>"; };
+		84C13B5C292140DB00749E96 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		84C13B5E2921410300749E96 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		84C13B602921413000749E96 /* UITextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExt.swift; sourceTree = "<group>"; };
+		84C13B622921414B00749E96 /* UIImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
+		84C13B642921419F00749E96 /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
+		84C13B692921444000749E96 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		84C13B6C2921445200749E96 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		BD9482EF4BC1D3870CF344C0 /* Pods_Messunity_MessunityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messunity_MessunityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7239297C49BEBDA9C74BDC2 /* Pods-Messunity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messunity.release.xcconfig"; path = "Target Support Files/Pods-Messunity/Pods-Messunity.release.xcconfig"; sourceTree = "<group>"; };
+		ED651AFCFE9D9C951F91DAEA /* Pods-Messunity-MessunityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messunity-MessunityUITests.release.xcconfig"; path = "Target Support Files/Pods-Messunity-MessunityUITests/Pods-Messunity-MessunityUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99DFB986E3C7D269BEDF683 /* Pods_Messunity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289418064434BC49601A9981 /* Pods_MessunityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +130,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E0B72E46570D5176570ED3A /* Pods_Messunity_MessunityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B9E19B14E5EEC3A19F0011F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				553510B15886E8011BC9B755 /* Pods_Messunity.framework */,
+				BD9482EF4BC1D3870CF344C0 /* Pods_Messunity_MessunityUITests.framework */,
+				08236C9DDAC96A53137D7227 /* Pods_MessunityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8495045929213110008A9F22 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +154,8 @@
 				8495047B29213117008A9F22 /* MessunityTests */,
 				8495048529213117008A9F22 /* MessunityUITests */,
 				8495046329213110008A9F22 /* Products */,
+				D57189A158D2C0B9CDD5CE3C /* Pods */,
+				2B9E19B14E5EEC3A19F0011F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +172,16 @@
 		8495046429213110008A9F22 /* Messunity */ = {
 			isa = PBXGroup;
 			children = (
+				84C13B3A2921393D00749E96 /* AppSettings.swift */,
 				8495046529213111008A9F22 /* AppDelegate.swift */,
-				8495046729213111008A9F22 /* SceneDelegate.swift */,
-				8495046929213111008A9F22 /* ViewController.swift */,
-				8495046B29213111008A9F22 /* Main.storyboard */,
+				84950497292132E7008A9F22 /* Controllers */,
+				84C13B4429213A8C00749E96 /* Lottie */,
+				84C13B5029213FD200749E96 /* Constants */,
+				84C13B4B29213E6600749E96 /* Utils */,
+				84950498292132EE008A9F22 /* Extensions */,
+				84950496292132DD008A9F22 /* Networking */,
+				84950495292132D5008A9F22 /* Storyboards */,
 				8495046E29213116008A9F22 /* Assets.xcassets */,
-				8495047029213116008A9F22 /* LaunchScreen.storyboard */,
 				8495047329213116008A9F22 /* Info.plist */,
 			);
 			path = Messunity;
@@ -127,6 +204,254 @@
 			path = MessunityUITests;
 			sourceTree = "<group>";
 		};
+		84950495292132D5008A9F22 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B252921361000749E96 /* Auth.storyboard */,
+				8495046B29213111008A9F22 /* Main.storyboard */,
+				84C13B582921409E00749E96 /* Chat.storyboard */,
+				8495047029213116008A9F22 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84950496292132DD008A9F22 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B4729213DDD00749E96 /* Push Notifications */,
+				84C13B37292138F800749E96 /* API Manager */,
+				84C13B382921390400749E96 /* Firebase Manager */,
+				84C13B392921391200749E96 /* WebSockets Manager */,
+				84C13B4229213A7200749E96 /* NetworkStatus.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		84950497292132E7008A9F22 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B282921362800749E96 /* Basic */,
+				84C13B292921363500749E96 /* Main */,
+				84C13B272921361E00749E96 /* Authentication */,
+				84C13B2A2921382500749E96 /* Chat */,
+				84C13B662921441600749E96 /* Profile */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84950498292132EE008A9F22 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B642921419F00749E96 /* DateExt.swift */,
+				84C13B5E2921410300749E96 /* UIViewExt.swift */,
+				84C13B5C292140DB00749E96 /* UIButtonExt.swift */,
+				84C13B602921413000749E96 /* UITextFieldExt.swift */,
+				84C13B622921414B00749E96 /* UIImageViewExt.swift */,
+				84C13B5A292140C300749E96 /* NotificationExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84C13B272921361E00749E96 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B6F2921446700749E96 /* AuthVC */,
+				84C13B702921446F00749E96 /* LoginVC */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		84C13B282921362800749E96 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B302921386800749E96 /* BasicVC.swift */,
+				84C13B33292138A500749E96 /* BasicTVCell.swift */,
+				84C13B35292138DC00749E96 /* BasicCVCell.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		84C13B292921363500749E96 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B562921407B00749E96 /* MainTabBarVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		84C13B2A2921382500749E96 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B532921404900749E96 /* ChatList */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		84C13B37292138F800749E96 /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B3F29213A1700749E96 /* Routers */,
+				84C13B3C292139AF00749E96 /* Models */,
+				84C13B3D292139BC00749E96 /* APIManager.swift */,
+			);
+			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		84C13B382921390400749E96 /* Firebase Manager */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B4E29213F6600749E96 /* FirebaseManager.swift */,
+			);
+			path = "Firebase Manager";
+			sourceTree = "<group>";
+		};
+		84C13B392921391200749E96 /* WebSockets Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "WebSockets Manager";
+			sourceTree = "<group>";
+		};
+		84C13B3C292139AF00749E96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84C13B3F29213A1700749E96 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B4029213A2D00749E96 /* BaseRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		84C13B4429213A8C00749E96 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B4829213E3700749E96 /* JSON */,
+				84C13B4929213E4800749E96 /* LottieManager.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		84C13B4729213DDD00749E96 /* Push Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Push Notifications";
+			sourceTree = "<group>";
+		};
+		84C13B4829213E3700749E96 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		84C13B4B29213E6600749E96 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B4C29213E9D00749E96 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		84C13B5029213FD200749E96 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B5129213FE700749E96 /* Enums.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		84C13B532921404900749E96 /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B542921405400749E96 /* Cells */,
+				84C13B4529213DD500749E96 /* ChatListVC.swift */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		84C13B542921405400749E96 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84C13B662921441600749E96 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B672921442500749E96 /* ProfileVC */,
+				84C13B682921442B00749E96 /* SettingsVC */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		84C13B672921442500749E96 /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B6B2921444400749E96 /* Cells */,
+				84C13B692921444000749E96 /* ProfileVC.swift */,
+			);
+			path = ProfileVC;
+			sourceTree = "<group>";
+		};
+		84C13B682921442B00749E96 /* SettingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B6E2921445600749E96 /* Cells */,
+				84C13B6C2921445200749E96 /* SettingsVC.swift */,
+			);
+			path = SettingsVC;
+			sourceTree = "<group>";
+		};
+		84C13B6B2921444400749E96 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84C13B6E2921445600749E96 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84C13B6F2921446700749E96 /* AuthVC */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B2D2921384300749E96 /* AuthVC.swift */,
+			);
+			path = AuthVC;
+			sourceTree = "<group>";
+		};
+		84C13B702921446F00749E96 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				84C13B2B2921383600749E96 /* LoginVC.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		D57189A158D2C0B9CDD5CE3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63C454B504E1FC014B71B1D9 /* Pods-Messunity.debug.xcconfig */,
+				D7239297C49BEBDA9C74BDC2 /* Pods-Messunity.release.xcconfig */,
+				0BE31BECCA76E4D5C32480A7 /* Pods-Messunity-MessunityUITests.debug.xcconfig */,
+				ED651AFCFE9D9C951F91DAEA /* Pods-Messunity-MessunityUITests.release.xcconfig */,
+				774A02F4047EAEB9FF897F03 /* Pods-MessunityTests.debug.xcconfig */,
+				0F5AF0C23D9B752189F81EBE /* Pods-MessunityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +459,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8495048C29213117008A9F22 /* Build configuration list for PBXNativeTarget "Messunity" */;
 			buildPhases = (
+				090B8672AA9B535785777F63 /* [CP] Check Pods Manifest.lock */,
 				8495045E29213110008A9F22 /* Sources */,
 				8495045F29213110008A9F22 /* Frameworks */,
 				8495046029213110008A9F22 /* Resources */,
+				8B511B9D83250BD9243E37B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +478,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8495048F29213117008A9F22 /* Build configuration list for PBXNativeTarget "MessunityTests" */;
 			buildPhases = (
+				AC3ABD8708237A4EA9B5D28A /* [CP] Check Pods Manifest.lock */,
 				8495047429213117008A9F22 /* Sources */,
 				8495047529213117008A9F22 /* Frameworks */,
 				8495047629213117008A9F22 /* Resources */,
@@ -169,9 +497,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8495049229213117008A9F22 /* Build configuration list for PBXNativeTarget "MessunityUITests" */;
 			buildPhases = (
+				CA01546AC0F868E147201AB4 /* [CP] Check Pods Manifest.lock */,
 				8495047E29213117008A9F22 /* Sources */,
 				8495047F29213117008A9F22 /* Frameworks */,
 				8495048029213117008A9F22 /* Resources */,
+				1E4130FD20B575C21C100048 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +561,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C13B262921361000749E96 /* Auth.storyboard in Resources */,
 				8495047229213116008A9F22 /* LaunchScreen.storyboard in Resources */,
 				8495046F29213116008A9F22 /* Assets.xcassets in Resources */,
+				84C13B592921409E00749E96 /* Chat.storyboard in Resources */,
 				8495046D29213111008A9F22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +585,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		090B8672AA9B535785777F63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Messunity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E4130FD20B575C21C100048 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Messunity-MessunityUITests/Pods-Messunity-MessunityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Messunity-MessunityUITests/Pods-Messunity-MessunityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Messunity-MessunityUITests/Pods-Messunity-MessunityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B511B9D83250BD9243E37B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Messunity/Pods-Messunity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Messunity/Pods-Messunity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Messunity/Pods-Messunity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC3ABD8708237A4EA9B5D28A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MessunityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA01546AC0F868E147201AB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Messunity-MessunityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8495045E29213110008A9F22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8495046A29213111008A9F22 /* ViewController.swift in Sources */,
+				84C13B3E292139BC00749E96 /* APIManager.swift in Sources */,
+				84C13B6A2921444000749E96 /* ProfileVC.swift in Sources */,
+				84C13B5B292140C300749E96 /* NotificationExt.swift in Sources */,
+				84C13B4129213A2D00749E96 /* BaseRouter.swift in Sources */,
+				84C13B652921419F00749E96 /* DateExt.swift in Sources */,
+				84C13B6D2921445200749E96 /* SettingsVC.swift in Sources */,
+				84C13B4F29213F6600749E96 /* FirebaseManager.swift in Sources */,
+				84C13B4629213DD500749E96 /* ChatListVC.swift in Sources */,
+				84C13B2E2921384300749E96 /* AuthVC.swift in Sources */,
+				84C13B34292138A500749E96 /* BasicTVCell.swift in Sources */,
+				84C13B632921414B00749E96 /* UIImageViewExt.swift in Sources */,
+				84C13B5D292140DB00749E96 /* UIButtonExt.swift in Sources */,
+				84C13B4D29213E9D00749E96 /* Utils.swift in Sources */,
+				84C13B572921407B00749E96 /* MainTabBarVC.swift in Sources */,
+				84C13B5229213FE700749E96 /* Enums.swift in Sources */,
+				84C13B3B2921393D00749E96 /* AppSettings.swift in Sources */,
+				84C13B5F2921410300749E96 /* UIViewExt.swift in Sources */,
+				84C13B2C2921383600749E96 /* LoginVC.swift in Sources */,
 				8495046629213111008A9F22 /* AppDelegate.swift in Sources */,
-				8495046829213111008A9F22 /* SceneDelegate.swift in Sources */,
+				84C13B612921413000749E96 /* UITextFieldExt.swift in Sources */,
+				84C13B312921386900749E96 /* BasicVC.swift in Sources */,
+				84C13B4329213A7200749E96 /* NetworkStatus.swift in Sources */,
+				84C13B4A29213E4800749E96 /* LottieManager.swift in Sources */,
+				84C13B36292138DC00749E96 /* BasicCVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +888,7 @@
 		};
 		8495048D29213117008A9F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C454B504E1FC014B71B1D9 /* Pods-Messunity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,11 +897,13 @@
 				DEVELOPMENT_TEAM = N4M3759P9C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Messunity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Messunity;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,14 +911,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Messunity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8495048E29213117008A9F22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7239297C49BEBDA9C74BDC2 /* Pods-Messunity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,11 +931,13 @@
 				DEVELOPMENT_TEAM = N4M3759P9C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Messunity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Messunity;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,14 +945,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Messunity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		8495049029213117008A9F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774A02F4047EAEB9FF897F03 /* Pods-MessunityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +977,7 @@
 		};
 		8495049129213117008A9F22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5AF0C23D9B752189F81EBE /* Pods-MessunityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +998,7 @@
 		};
 		8495049329213117008A9F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE31BECCA76E4D5C32480A7 /* Pods-Messunity-MessunityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +1017,7 @@
 		};
 		8495049429213117008A9F22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED651AFCFE9D9C951F91DAEA /* Pods-Messunity-MessunityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
