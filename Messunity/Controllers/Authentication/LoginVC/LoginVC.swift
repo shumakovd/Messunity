@@ -17,6 +17,7 @@ class LoginVC: BasicVC {
     @IBOutlet private weak var signInButton: UIButton!
     
     @IBOutlet private weak var usernameTextField: UITextField!
+    @IBOutlet private weak var passwordTextField: UITextField!
         
     // MARK: - Properties
     
@@ -24,10 +25,20 @@ class LoginVC: BasicVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //
+        configureUI()
     }
     
     // MARK: - Methods
+    
+    private func configureUI() {
+        errorLabel.isHidden = true
+        //
+        usernameTextField.delegate = self
+        usernameTextField.setBottomLine(.normal)
+        //
+        loginButton.setRoundedLine()
+    }
     
     // MARK: - IBActions
     

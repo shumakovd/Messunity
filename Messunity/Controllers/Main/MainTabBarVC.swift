@@ -15,6 +15,10 @@ class MainTabBarVC: UITabBarController {
     
     // MARK: - Lifecycle
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     // MARK: - Methods
     
     // MARK: - IBActions

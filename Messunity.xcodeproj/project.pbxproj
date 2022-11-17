@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		289418064434BC49601A9981 /* Pods_MessunityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08236C9DDAC96A53137D7227 /* Pods_MessunityTests.framework */; };
 		4E0B72E46570D5176570ED3A /* Pods_Messunity_MessunityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9482EF4BC1D3870CF344C0 /* Pods_Messunity_MessunityUITests.framework */; };
+		8406CD0829216F0D0012FD4D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8406CD0729216F0D0012FD4D /* GoogleService-Info.plist */; };
+		84243C6C29250156004B1363 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84243C6B29250156004B1363 /* CacheManager.swift */; };
+		846F29852923F3F00096E987 /* CreateUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F29842923F3F00096E987 /* CreateUserVC.swift */; };
+		846F29882923F73E0096E987 /* UserML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F29872923F73E0096E987 /* UserML.swift */; };
+		846F298C29240D930096E987 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F298B29240D930096E987 /* ImagePicker.swift */; };
+		8471F6582923D3A600C8AFE2 /* DataExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471F6572923D3A600C8AFE2 /* DataExt.swift */; };
+		8471F65A2923DAB500C8AFE2 /* PushNotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471F6592923DAB500C8AFE2 /* PushNotificationsManager.swift */; };
+		8471F65C2923E04900C8AFE2 /* UserDefaultsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471F65B2923E04900C8AFE2 /* UserDefaultsExt.swift */; };
 		8495046629213111008A9F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495046529213111008A9F22 /* AppDelegate.swift */; };
 		8495046D29213111008A9F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495046B29213111008A9F22 /* Main.storyboard */; };
 		8495046F29213116008A9F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8495046E29213116008A9F22 /* Assets.xcassets */; };
@@ -16,6 +24,9 @@
 		8495047D29213117008A9F22 /* MessunityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495047C29213117008A9F22 /* MessunityTests.swift */; };
 		8495048729213117008A9F22 /* MessunityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495048629213117008A9F22 /* MessunityUITests.swift */; };
 		8495048929213117008A9F22 /* MessunityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495048829213117008A9F22 /* MessunityUITestsLaunchTests.swift */; };
+		84A1D84829229CF50062CF82 /* CodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1D84729229CF50062CF82 /* CodeVC.swift */; };
+		84B908432921524A00526522 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B908422921524A00526522 /* Profile.storyboard */; };
+		84B908472921555200526522 /* SecureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B908462921555200526522 /* SecureStorage.swift */; };
 		84C13B262921361000749E96 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C13B252921361000749E96 /* Auth.storyboard */; };
 		84C13B2C2921383600749E96 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B2B2921383600749E96 /* LoginVC.swift */; };
 		84C13B2E2921384300749E96 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B2D2921384300749E96 /* AuthVC.swift */; };
@@ -41,6 +52,7 @@
 		84C13B652921419F00749E96 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B642921419F00749E96 /* DateExt.swift */; };
 		84C13B6A2921444000749E96 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B692921444000749E96 /* ProfileVC.swift */; };
 		84C13B6D2921445200749E96 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C13B6C2921445200749E96 /* SettingsVC.swift */; };
+		84D4780329255C850057683A /* DictionaryExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4780229255C850057683A /* DictionaryExt.swift */; };
 		B99DFB986E3C7D269BEDF683 /* Pods_Messunity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553510B15886E8011BC9B755 /* Pods_Messunity.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +80,15 @@
 		553510B15886E8011BC9B755 /* Pods_Messunity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messunity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C454B504E1FC014B71B1D9 /* Pods-Messunity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messunity.debug.xcconfig"; path = "Target Support Files/Pods-Messunity/Pods-Messunity.debug.xcconfig"; sourceTree = "<group>"; };
 		774A02F4047EAEB9FF897F03 /* Pods-MessunityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessunityTests.debug.xcconfig"; path = "Target Support Files/Pods-MessunityTests/Pods-MessunityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8406CD0729216F0D0012FD4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8406CD0929217BC60012FD4D /* Messunity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Messunity.entitlements; sourceTree = "<group>"; };
+		84243C6B29250156004B1363 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		846F29842923F3F00096E987 /* CreateUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserVC.swift; sourceTree = "<group>"; };
+		846F29872923F73E0096E987 /* UserML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserML.swift; sourceTree = "<group>"; };
+		846F298B29240D930096E987 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		8471F6572923D3A600C8AFE2 /* DataExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExt.swift; sourceTree = "<group>"; };
+		8471F6592923DAB500C8AFE2 /* PushNotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationsManager.swift; sourceTree = "<group>"; };
+		8471F65B2923E04900C8AFE2 /* UserDefaultsExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExt.swift; sourceTree = "<group>"; };
 		8495046229213110008A9F22 /* Messunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8495046529213111008A9F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8495046C29213111008A9F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +100,9 @@
 		8495048229213117008A9F22 /* MessunityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessunityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8495048629213117008A9F22 /* MessunityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessunityUITests.swift; sourceTree = "<group>"; };
 		8495048829213117008A9F22 /* MessunityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessunityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84A1D84729229CF50062CF82 /* CodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVC.swift; sourceTree = "<group>"; };
+		84B908422921524A00526522 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		84B908462921555200526522 /* SecureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStorage.swift; sourceTree = "<group>"; };
 		84C13B252921361000749E96 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		84C13B2B2921383600749E96 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		84C13B2D2921384300749E96 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
@@ -104,6 +128,7 @@
 		84C13B642921419F00749E96 /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
 		84C13B692921444000749E96 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		84C13B6C2921445200749E96 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		84D4780229255C850057683A /* DictionaryExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExt.swift; sourceTree = "<group>"; };
 		BD9482EF4BC1D3870CF344C0 /* Pods_Messunity_MessunityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messunity_MessunityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7239297C49BEBDA9C74BDC2 /* Pods-Messunity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messunity.release.xcconfig"; path = "Target Support Files/Pods-Messunity/Pods-Messunity.release.xcconfig"; sourceTree = "<group>"; };
 		ED651AFCFE9D9C951F91DAEA /* Pods-Messunity-MessunityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messunity-MessunityUITests.release.xcconfig"; path = "Target Support Files/Pods-Messunity-MessunityUITests/Pods-Messunity-MessunityUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +172,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		846F29832923F3C20096E987 /* CreateUserVC */ = {
+			isa = PBXGroup;
+			children = (
+				846F29842923F3F00096E987 /* CreateUserVC.swift */,
+			);
+			path = CreateUserVC;
+			sourceTree = "<group>";
+		};
+		846F29862923F7290096E987 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				846F29872923F73E0096E987 /* UserML.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8495045929213110008A9F22 = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +213,7 @@
 		8495046429213110008A9F22 /* Messunity */ = {
 			isa = PBXGroup;
 			children = (
+				8406CD0929217BC60012FD4D /* Messunity.entitlements */,
 				84C13B3A2921393D00749E96 /* AppSettings.swift */,
 				8495046529213111008A9F22 /* AppDelegate.swift */,
 				84950497292132E7008A9F22 /* Controllers */,
@@ -180,9 +222,11 @@
 				84C13B4B29213E6600749E96 /* Utils */,
 				84950498292132EE008A9F22 /* Extensions */,
 				84950496292132DD008A9F22 /* Networking */,
+				84B908442921552C00526522 /* Security */,
 				84950495292132D5008A9F22 /* Storyboards */,
 				8495046E29213116008A9F22 /* Assets.xcassets */,
 				8495047329213116008A9F22 /* Info.plist */,
+				8406CD0729216F0D0012FD4D /* GoogleService-Info.plist */,
 			);
 			path = Messunity;
 			sourceTree = "<group>";
@@ -211,6 +255,7 @@
 				8495046B29213111008A9F22 /* Main.storyboard */,
 				84C13B582921409E00749E96 /* Chat.storyboard */,
 				8495047029213116008A9F22 /* LaunchScreen.storyboard */,
+				84B908422921524A00526522 /* Profile.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -242,14 +287,41 @@
 		84950498292132EE008A9F22 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8471F6572923D3A600C8AFE2 /* DataExt.swift */,
 				84C13B642921419F00749E96 /* DateExt.swift */,
+				84D4780229255C850057683A /* DictionaryExt.swift */,
 				84C13B5E2921410300749E96 /* UIViewExt.swift */,
 				84C13B5C292140DB00749E96 /* UIButtonExt.swift */,
 				84C13B602921413000749E96 /* UITextFieldExt.swift */,
 				84C13B622921414B00749E96 /* UIImageViewExt.swift */,
+				8471F65B2923E04900C8AFE2 /* UserDefaultsExt.swift */,
 				84C13B5A292140C300749E96 /* NotificationExt.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84A1D84629229CD70062CF82 /* CodeVC */ = {
+			isa = PBXGroup;
+			children = (
+				84A1D84729229CF50062CF82 /* CodeVC.swift */,
+			);
+			path = CodeVC;
+			sourceTree = "<group>";
+		};
+		84B908442921552C00526522 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				84B908452921554100526522 /* Keychain */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		84B908452921554100526522 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				84B908462921555200526522 /* SecureStorage.swift */,
+			);
+			path = Keychain;
 			sourceTree = "<group>";
 		};
 		84C13B272921361E00749E96 /* Authentication */ = {
@@ -257,6 +329,8 @@
 			children = (
 				84C13B6F2921446700749E96 /* AuthVC */,
 				84C13B702921446F00749E96 /* LoginVC */,
+				84A1D84629229CD70062CF82 /* CodeVC */,
+				846F29832923F3C20096E987 /* CreateUserVC */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -300,6 +374,7 @@
 		84C13B382921390400749E96 /* Firebase Manager */ = {
 			isa = PBXGroup;
 			children = (
+				846F29862923F7290096E987 /* Models */,
 				84C13B4E29213F6600749E96 /* FirebaseManager.swift */,
 			);
 			path = "Firebase Manager";
@@ -339,6 +414,7 @@
 		84C13B4729213DDD00749E96 /* Push Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				8471F6592923DAB500C8AFE2 /* PushNotificationsManager.swift */,
 			);
 			path = "Push Notifications";
 			sourceTree = "<group>";
@@ -354,6 +430,8 @@
 			isa = PBXGroup;
 			children = (
 				84C13B4C29213E9D00749E96 /* Utils.swift */,
+				846F298B29240D930096E987 /* ImagePicker.swift */,
+				84243C6B29250156004B1363 /* CacheManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -470,6 +548,8 @@
 			dependencies = (
 			);
 			name = Messunity;
+			packageProductDependencies = (
+			);
 			productName = Messunity;
 			productReference = 8495046229213110008A9F22 /* Messunity.app */;
 			productType = "com.apple.product-type.application";
@@ -545,6 +625,8 @@
 				Base,
 			);
 			mainGroup = 8495045929213110008A9F22;
+			packageReferences = (
+			);
 			productRefGroup = 8495046329213110008A9F22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -561,11 +643,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B908432921524A00526522 /* Profile.storyboard in Resources */,
 				84C13B262921361000749E96 /* Auth.storyboard in Resources */,
 				8495047229213116008A9F22 /* LaunchScreen.storyboard in Resources */,
 				8495046F29213116008A9F22 /* Assets.xcassets in Resources */,
 				84C13B592921409E00749E96 /* Chat.storyboard in Resources */,
 				8495046D29213111008A9F22 /* Main.storyboard in Resources */,
+				8406CD0829216F0D0012FD4D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,25 +778,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C13B3E292139BC00749E96 /* APIManager.swift in Sources */,
+				846F29882923F73E0096E987 /* UserML.swift in Sources */,
 				84C13B6A2921444000749E96 /* ProfileVC.swift in Sources */,
 				84C13B5B292140C300749E96 /* NotificationExt.swift in Sources */,
+				84A1D84829229CF50062CF82 /* CodeVC.swift in Sources */,
+				8471F6582923D3A600C8AFE2 /* DataExt.swift in Sources */,
 				84C13B4129213A2D00749E96 /* BaseRouter.swift in Sources */,
+				84B908472921555200526522 /* SecureStorage.swift in Sources */,
 				84C13B652921419F00749E96 /* DateExt.swift in Sources */,
 				84C13B6D2921445200749E96 /* SettingsVC.swift in Sources */,
 				84C13B4F29213F6600749E96 /* FirebaseManager.swift in Sources */,
 				84C13B4629213DD500749E96 /* ChatListVC.swift in Sources */,
 				84C13B2E2921384300749E96 /* AuthVC.swift in Sources */,
+				846F298C29240D930096E987 /* ImagePicker.swift in Sources */,
 				84C13B34292138A500749E96 /* BasicTVCell.swift in Sources */,
 				84C13B632921414B00749E96 /* UIImageViewExt.swift in Sources */,
 				84C13B5D292140DB00749E96 /* UIButtonExt.swift in Sources */,
+				8471F65C2923E04900C8AFE2 /* UserDefaultsExt.swift in Sources */,
 				84C13B4D29213E9D00749E96 /* Utils.swift in Sources */,
 				84C13B572921407B00749E96 /* MainTabBarVC.swift in Sources */,
 				84C13B5229213FE700749E96 /* Enums.swift in Sources */,
+				84D4780329255C850057683A /* DictionaryExt.swift in Sources */,
+				8471F65A2923DAB500C8AFE2 /* PushNotificationsManager.swift in Sources */,
 				84C13B3B2921393D00749E96 /* AppSettings.swift in Sources */,
+				846F29852923F3F00096E987 /* CreateUserVC.swift in Sources */,
 				84C13B5F2921410300749E96 /* UIViewExt.swift in Sources */,
 				84C13B2C2921383600749E96 /* LoginVC.swift in Sources */,
 				8495046629213111008A9F22 /* AppDelegate.swift in Sources */,
 				84C13B612921413000749E96 /* UITextFieldExt.swift in Sources */,
+				84243C6C29250156004B1363 /* CacheManager.swift in Sources */,
 				84C13B312921386900749E96 /* BasicVC.swift in Sources */,
 				84C13B4329213A7200749E96 /* NetworkStatus.swift in Sources */,
 				84C13B4A29213E4800749E96 /* LottieManager.swift in Sources */,
@@ -892,6 +986,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Messunity/Messunity.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N4M3759P9C;
@@ -899,9 +994,11 @@
 				INFOPLIST_FILE = Messunity/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Messunity;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Messunity wants to take picture";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Messunity wants to use your photo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Auth;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -926,6 +1023,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Messunity/Messunity.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N4M3759P9C;
@@ -933,9 +1031,11 @@
 				INFOPLIST_FILE = Messunity/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Messunity;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Messunity wants to take picture";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Messunity wants to use your photo";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Auth;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

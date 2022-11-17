@@ -8,13 +8,20 @@
 import UIKit
 
 class ChatListVC: BasicVC {
+    
     // MARK: - IBOutlets
     
     // MARK: - Properties
     
     // MARK: - Lifecycle
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
     // MARK: - Methods
     
     // MARK: - IBActions
+    
 }
